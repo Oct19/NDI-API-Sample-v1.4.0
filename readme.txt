@@ -32,11 +32,11 @@ The usage of the CAPIsample console application is:
    3. From a terminal window run the program as follows:
 
    On Linux:
-          ./bin/linux/capisample <hostname> [<scu_hostname>]
+          ./precompiled/linux/capisample <hostname> [<scu_hostname>]
    On Windows 64-bit:
-		  bin\win64\sample.exe <hostname> [<scu_hostname>]
+		  precompiled\win64\sample.exe <hostname> [<scu_hostname>]
    On Mac:
-		  ./bin/macosx/CAPIsample <hostname> [<scu_hostname>]
+		  ./precompiled/macosx/CAPIsample <hostname> [<scu_hostname>]
       where
           <hostname> (required) The measurement device's hostname, IP address, or serial port.
           [<scu_hostname>] (optional) A System Control Unit (SCU) hostname, used to connect active tools.
